@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    color: #333;
+}
+body {
+    background-color: #fff;
+}
+.container {
+    width: 660px;
+    margin: auto;
+}
+header,
+footer {
+    text-align: center;
+}
+section {
+    border: 2px solid #fff;
+    margin-top: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+.mini-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 280px;
+    height: 250px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease 0s;
+    border-radius: 16px;
+    margin: 16px;
+    box-shadow: rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 0px 0px 1px;
+}
+.card span {
+    position: absolute;
+    bottom: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ANIMATION 1 */
+.scale {
+    font-size: 120px;
+    color: #e31b23;
+    animation: animateScale 2s infinite;
+}
+@keyframes animateScale {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.heart {
+    font-size: 100px;
+    color: #ff0008;
+    animation: heartbeat 2s infinite;
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    10% {
+        transform: scale(1.25);
+    }
+    20% {
+        transform: scale(1.15);
+    }
+    30% {
+        transform: scale(1.4);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+footer {
+    font-size: 12px;
+    margin: 5px 0;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .mini-container {
+        justify-content: center;
+    }
+}
+.charge{
+    background-color: #5BC236;
+    width: 0px;
+    height: 64px;
+    animation: battery 5s infinite;
+    margin:5px;
+    border-radius: 4px;
+}
+.battery{
+    width: 200px;
+    height: 80px;
+    border: 3px solid #222;
+    position: relative;
+    border-radius: 6px;
+}
+.plus{
+    position: absolute;
+    right: -14px;
+    top: 20px;
+    border-radius: 4px;
+    border: 3px solid #222;
+    width: 14px;
+    height: 30px;
+}

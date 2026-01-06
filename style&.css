@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Neucha&family=Pangolin&display=swap');
+
+body {
+    background-color: #ebe4dc;
+    cursor: url("https://cdn.custom-cursor.com/db/cursor/32/christmas_tree_and_t-rex_cursor.png"),
+        auto;
+
+    /* связывает все 3 страницы */
+}
+
+
+header {
+    width: 1224px;
+    background-color: #cbcbcb;
+    padding: 32px;
+    display: flex;
+    margin: 0px auto;
+    /* связывает все 3 страницы */
+}
+
+
+.container {
+    align-items: center;
+    display: flex;
+    margin: 0px auto;
+}
+
+
+
+.main1 {
+    width: 1224px;
+    height: 1400px;
+    background-color: #cbcbcb;
+    display: flex;
+    margin: 0px auto;
+    padding: 32px;
+    flex-direction: column;
+}
+
+
+.savev {
+    display: flex;
+}
+
+
+.cont {
+    margin: 300px 60px 0px 0px;
+}
+
+
+.sas {
+    margin: 200px 0px 0px 90px;
+}
+
+
+.save {
+    padding: 10px 700px 10px 10px;
+    color: #000000;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 10px 140px 10px 0px;
+    text-align: center;
+}
+
+
+.sav {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.sa {
+    margin: 120px 0px 0px 0px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+
+.s {
+    background-color: rgb(0 0 0 / 6%);
+    border: 2px solid #000000;
+    margin: 40px 50px 0px 0px;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 48px;
+    padding: 5px;
+}
+
+
+footer {
+    text-align: center;
+    width: 1224px;
+    padding: 32px;
+    background-color: #dbd4d4;
+    margin: 0px auto;
+    /* связывает все 3 страницы */
+}
+
+
+/* конец основной страницы  */
+
+
+
+
+/* начало для страницы number1 */
+
+
+.main2 {
+    width: 1224px;
+    height: 2400px;
+    background-color: #cbcbcb;
+    display: flex;
+    margin: 0px auto;
+    padding: 32px;
+    flex-direction: column;
+}
+
+
+.exp {
+    background-color: #dbd4d4;
+    padding: 32px;
+}
+
+
+.h {
+    padding: 0px 0px 0px 32px;
+}
+
+
+.edu {
+    display: flex;
+    background-color: #eeeeee42;
+    padding: 32px;
+    align-items: center;
+    border-radius: 10px;
+    height: 200px;
+    margin: 20px;
+}
+
+
+.edxp {
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 125px;
+    height: 100px;
+    padding: 32px;
+    background-color: #eeeeee70;
+    border-radius: 10px;
+}
+
+
+.edxpp {
+    color: rgb(0, 0, 0);
+    padding: 32px;
+    margin: 50px;
+}
+
+
+.exp1 {
+    background-color: #dbd4d4;
+    padding: 32px;
+    margin: 60px 0px 100px 0px;
+}
+
+
+.prr {
+    display: flex;
+    align-items: center;
+    background-color: #dbd4d4;
+    padding: 32px;
+    border-radius: 15px;
+    height: 300px;
+    margin: 50px;
+}
+
+
+.prrr {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 78px;
+
+}
+
+.prof {
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+
+
+.pr {
+    text-align: center;
+    background-color: #eeeeee70;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 8px 8px 8px 8px;
+    height: 70.13px;
+    width: 152.38px;
+}
+
+
+/* конец для страницы number1 */
+
+
+
+
+/* начало для страницы number2 */
+
+
+.main3 {
+    width: 1224px;
+    height: 2500px;
+    background-color: #cbcbcb;
+    display: flex;
+    margin: 0px auto;
+    padding: 32px;
+    flex-direction: column;
+}
+
+
+.picture {
+    margin: 10px 0px;
+    border-radius: 50px;
+    border: 5px solid #000000;
+}
+
+
+.h1 {
+    text-align: center;
+}
+
+
+.h2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.number2 {
+    margin: 40px 0px;
+    border-radius: 10px;
+    display: flex;
+    padding: 32px;
+    width: 600px;
+    background-color: #dbd4d4;
+    color: rgb(0, 0, 0);
+}
+
+
+.numbe2 {
+    flex-direction: column;
+    padding: 0px 32px 0px 32px;
+    display: flex;
+}
+
+
+.numb2 {
+    border-radius: 15px;
+    text-align: center;
+    height: 50px;
+    background-color: rgb(0 0 0 / 6%);
+    border: 2px solid #000000;
+}
+
+
+.num {
+    margin: 0px 0px 50px 0px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    background-color: #dbd4d4;
+    border-bottom: 2px solid #000000;
+}
+
+
+.nu {
+    border-radius: 15px;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+
+/* конец для страницы number2 */
